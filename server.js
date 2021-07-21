@@ -1,7 +1,6 @@
-if(process.env.NODE_ENV !== 'production'){
-    require("dotenv").config();
-    console.log("hhhhh");
-}
+
+ 
+require("dotenv").config();
 
 const WHEATHER_API_KEY=process.env.WHEATHER_API_KEY;
 const express = require("express");
