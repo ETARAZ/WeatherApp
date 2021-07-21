@@ -3,7 +3,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body{
-    background: linear-gradient(to left,rgb(8, 239, 255),rgb(52, 205, 252));
+    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,6 +44,7 @@ body{
 .icon-container #icon{
     background-repeat: no-repeat;
     background-size: cover;
+    background-position:center;
 }
 .general-information{
     display: flex;
