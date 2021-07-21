@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background: linear-gradient(to left,rgb(8, 239, 255),rgb(52, 205, 252));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1200px;
+    max-width: 90%;
+    background-color: white;
+    box-shadow: 0 5px 10px black;
+    border-radius:8px;
+}
+
+.content{
+    padding: 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px;
+    background-color: black;
+}
+.icon-container{
+    background-color: white;
+    padding: 5px;
+    position: relative;
+    top: 50px;
+    border-radius: 50%;
+    border: 4px groove aqua;
+}
+.icon-container #icon{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.general-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+.status{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.location{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 20px;
+}
+.detail .title{
+    font-size: 2rem;
+    flex-grow:1;
+    font-weight: bold;
+    color: #777;
+}
+
+.detail .value{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.city-search-container{
+    display: flex;
+    justify-content: center;
+}
+.city-search-container .search-city{
+    margin-top: 10px;
+    font-size: 2rem;
+    outline: none;
+    border: 1px solid #777;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 15px;
+}
+.item-context{font-size:1rem !important;}
+.maptiler-geocoder-results .item-type{font-size:0.9rem !important;}
+.maptiler-geocoder-results{
+    font-size: 1.5rem !important;
+}
+
+
+
