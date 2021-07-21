@@ -1,4 +1,4 @@
-
+console.log("start");
 const geocoder = new maptiler.Geocoder({
     input: 'search',
     key: 'ojM8l0dqFTYmf5ofFV5u'
