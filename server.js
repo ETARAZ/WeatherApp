@@ -5,6 +5,7 @@ if(process.env.NODE_ENV !== 'production'){
 const WHEATHER_API_KEY=process.env.WHEATHER_API_KEY;
 const express = require("express");
 const axios=require("axios");
+const host="0.0.0.0";
 
 const app = express();
 app.use(express.json());
@@ -17,6 +18,6 @@ app.post("/weather",(req,res)=>{
         responseType:'json'
     }).then(data=>res.json(data.data));
 });
-app.listen(3000,()=>{
+app.listen(3000,host,()=>{
     console.log("server started !");
 });
