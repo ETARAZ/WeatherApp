@@ -56,10 +56,12 @@ body{
 .status{
     font-size: 3rem;
     font-weight: bold;
+    text-align:center;
 }
 .location{
     font-size: 2rem;
     margin-top: 10px;
+    text-align:center;
 }
 .details{
     display: flex;
