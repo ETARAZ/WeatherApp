@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.static('public'));
 app.post("/weather",(req,res)=>{
     const coordinates=req.body.coordinates;
-    const url=`https://api.weatherapi.com/v1/current.json?key=${WHEATHER_API_KEY}&q=${coordinates}`;
+    const url=`https://api.weatherapi.com/v1/current.json?key=3174061b92db42db9e8231054211907&q=${coordinates}`;
     axios({
         url:url,
         responseType:'json'
