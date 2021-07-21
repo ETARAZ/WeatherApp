@@ -17,6 +17,6 @@ app.post("/weather",(req,res)=>{
         responseType:'json'
     }).then(data=>res.json(data.data));
 });
-app.listen(3000,()=>{
+app.listen(process.env.PORT || 3000,()=>{
     console.log("server started !");
 });
